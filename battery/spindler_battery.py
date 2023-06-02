@@ -3,7 +3,7 @@ from battery.battery import Battery
 
 class SpindlerBattery(Battery):
 
-    __service_time_frame = 2
+    __service_time_frame = 3
 
     def __init__(self, last_service_date, current_date):
         self.last_service_date = last_service_date
