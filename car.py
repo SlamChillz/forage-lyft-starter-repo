@@ -3,7 +3,7 @@ from abc import ABC
 from serviceable import Serviceable
 
 
-class Car(Serviceable):
+class Car(Serviceable, ABC):
     def __init__(self, engine, battery, tire):
         self.__engine = engine
         self.__battery = battery
